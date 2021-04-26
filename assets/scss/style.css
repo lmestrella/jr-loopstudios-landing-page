@@ -184,8 +184,8 @@ body.site {
 }
 
 .site__hamburger > img {
-  -webkit-transition: all 400ms;
-  transition: all 400ms;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
 }
 
 .site__hamburger > img:last-of-type {
@@ -210,6 +210,7 @@ body.site {
   position: absolute;
   min-width: 100vw;
   padding: 10% 6%;
+  overflow: hidden;
 }
 
 .site__header-logo {
@@ -229,8 +230,8 @@ body.site {
   visibility: hidden;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
-  -webkit-transition: all 400ms ease-out;
-  transition: all 400ms ease-out;
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
 }
 
 .site__nav-list--show {
@@ -306,7 +307,6 @@ body.site {
 }
 
 .project__card {
-  max-width: 328px;
   min-height: 8em;
   background-color: black;
   -webkit-transition: all 200ms;
@@ -325,61 +325,61 @@ body.site {
 .project__card:nth-of-type(1) {
   background-image: url(../images/mobile/image-deep-earth.jpg);
   background-repeat: no-repeat;
-  background-size: auto 100%;
-  background-position: center;
+  background-size: 120%;
+  background-position: top;
 }
 
 .project__card:nth-of-type(2) {
   background-image: url(../images/mobile/image-night-arcade.jpg);
   background-repeat: no-repeat;
-  background-size: auto 100%;
-  background-position: center;
+  background-size: 120%;
+  background-position: top;
 }
 
 .project__card:nth-of-type(3) {
   background-image: url(../images/mobile/image-soccer-team.jpg);
   background-repeat: no-repeat;
-  background-size: auto 100%;
-  background-position: center;
+  background-size: 120%;
+  background-position: top;
 }
 
 .project__card:nth-of-type(4) {
   background-image: url(../images/mobile/image-grid.jpg);
   background-repeat: no-repeat;
-  background-size: auto 100%;
-  background-position: center;
+  background-size: 120%;
+  background-position: top;
 }
 
 .project__card:nth-of-type(5) {
   background-image: url(../images/mobile/image-from-above.jpg);
   background-repeat: no-repeat;
-  background-size: auto 100%;
-  background-position: center;
+  background-size: 120%;
+  background-position: top;
 }
 
 .project__card:nth-of-type(6) {
   background-image: url(../images/mobile/image-pocket-borealis.jpg);
   background-repeat: no-repeat;
-  background-size: auto 100%;
-  background-position: center;
+  background-size: 120%;
+  background-position: top;
 }
 
 .project__card:nth-of-type(7) {
   background-image: url(../images/mobile/image-curiosity.jpg);
   background-repeat: no-repeat;
-  background-size: auto 100%;
-  background-position: center;
+  background-size: 120%;
+  background-position: top;
 }
 
 .project__card:nth-of-type(8) {
   background-image: url(../images/mobile/image-fisheye.jpg);
   background-repeat: no-repeat;
-  background-size: auto 100%;
-  background-position: center;
+  background-size: 120%;
+  background-position: top;
 }
 
 .project__card:hover {
-  background-size: auto 110%;
+  background-size: 130%;
 }
 
 .btn {

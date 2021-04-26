@@ -68,6 +68,7 @@
     position: absolute;
     min-width: 100vw;
     padding: 10% $padding-lr-size;
+    overflow: hidden;
 
     &-logo {
       width: Min(192px, 38%);

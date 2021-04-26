@@ -23,8 +23,10 @@
   }
 
   &__card {
-    max-width: 328px;
+    // min-width: 280px;
+    // max-width: 328px;
     min-height: 8em;
+    // margin: 0 auto;
     background-color: $color-black;
     transition: all $animation-speed-fast;
 
@@ -61,7 +63,7 @@
     }
 
     &:hover {
-      background-size: auto 110%;
+      background-size: 130%;
     }
   }
 }
