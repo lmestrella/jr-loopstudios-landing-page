@@ -120,6 +120,7 @@ h2 {
 body.site {
   position: relative;
   row-gap: 6.33em;
+  overflow-x: hidden;
 }
 
 .project {
@@ -210,7 +211,6 @@ body.site {
   position: absolute;
   min-width: 100vw;
   padding: 10% 6%;
-  overflow: hidden;
 }
 
 .site__header-logo {
