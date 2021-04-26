@@ -123,6 +123,10 @@ body.site {
   overflow-x: hidden;
 }
 
+body.site--fixed {
+  overflow: hidden;
+}
+
 .project {
   row-gap: 2.2666em;
 }
