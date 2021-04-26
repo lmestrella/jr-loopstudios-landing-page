@@ -1,0 +1,26 @@
+.site {
+  &__footer {
+    grid-template-columns: auto;
+    background-color: $color-black;
+    padding: 3.6666em $padding-lr-size;
+
+    &-logo {
+      max-width: 143px;
+    }
+
+    &-nav {
+      margin: 2.3333em 0;
+
+      &-item {
+        &:not(:last-of-type) {
+          margin-bottom: 1em;
+        }
+      }
+    }
+  }
+
+  &__socials {
+    column-gap: 1em;
+    margin: 1em 0;
+  }
+}

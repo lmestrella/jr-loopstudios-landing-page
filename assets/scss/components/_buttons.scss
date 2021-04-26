@@ -1,0 +1,19 @@
+.btn {
+  border: 1px solid $color-black;
+  background-color: $color-white;
+  padding: 0.7em 2.64em;
+  transition: all $animation-speed-fast;
+  cursor: pointer;
+
+  &:hover {
+    color: $color-white;
+    background-color: $color-black;
+  }
+}
+
+.project {
+  &__all {
+    display: block;
+    margin: auto;
+  }
+}

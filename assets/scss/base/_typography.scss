@@ -1,0 +1,109 @@
+body {
+  color: $color-black;
+  text-transform: initial;
+  font-family: "Alata", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+.site {
+  &__nav {
+    &-item {
+      &:not(:last-of-type) {
+        margin-bottom: 0.5em;
+      }
+    }
+
+    &-link {
+      color: $color-white;
+      text-transform: uppercase;
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 1.5rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__intro {
+    &-title {
+      color: $color-white;
+      font-size: clamp(2.25rem, 10vw, 4.25rem);
+    }
+  }
+
+  &__footer,
+  &__copyright {
+    text-align: center;
+  }
+
+  &__footer {
+    &-nav {
+      &-link {
+        color: $color-white;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  &__copyright {
+    color: $color-dark-gray;
+  }
+}
+
+.article {
+  text-align: center;
+
+  &__title {
+    font-size: clamp(2rem, 8vw, 2.75rem);
+  }
+
+  &__body {
+    color: $color-very-dark-gray;
+    padding: 0 5%;
+  }
+}
+
+.project {
+  &__title {
+    text-align: center;
+    font-size: clamp(2rem, 8vw, 2.75rem);
+  }
+
+  &__name {
+    color: $color-white;
+    font-size: clamp(1.5rem, 6vw, 1.75rem);
+    width: Min(14ch, 50%);
+    padding: 5%;
+  }
+
+  &__card {
+    &:nth-of-type(4) {
+      h3 {
+        width: 8ch;
+      }
+    }
+  }
+
+  &__all {
+    color: $color-black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 4px;
+    font-family: inherit;
+    font-size: 0.85rem;
+  }
+}
